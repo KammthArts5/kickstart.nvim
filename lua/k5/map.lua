@@ -4,7 +4,7 @@ vim.keymap.set('n', '<C-u>', '<C-u>zz')
 vim.keymap.set('n', 'n', 'nzz')
 vim.keymap.set('n', 'N', 'Nzz')
 
-vim.keymap.set('n', '<leader>sv', vim.cmd.Ex)
+vim.keymap.set('n', '<leader>sv', vim.cmd.Ex, { desc = 'Netrw : Builtin Vim Explorer' })
 
 -- NOTE: JV11 "Greatest remap ever"
 
